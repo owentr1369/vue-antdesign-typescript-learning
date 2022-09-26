@@ -1,16 +1,16 @@
 <template>
   <div class="home">
     <h1>This is an home page</h1>
-    <antd-button></antd-button>
+    <antd-dropdown></antd-dropdown>
   </div>
 </template>
 
 <script lang="ts">
-import antdButton from "@/components/antd-button.vue";
+import AntdDropdown from "@/components/antd-dropdown.vue";
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  components: { antdButton },
+  components: { AntdDropdown },
   name: "HomeView",
 });
 </script>
