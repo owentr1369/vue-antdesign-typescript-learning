@@ -1,20 +1,16 @@
 <template>
   <div class="home">
     <h1>This is an home page</h1>
-    <a-button>Add</a-button>
+    <antd-button></antd-button>
   </div>
 </template>
 
 <script lang="ts">
+import antdButton from "@/components/antd-button.vue";
 import { defineComponent } from "vue";
-import { Button } from "ant-design-vue";
-// const ButtonGroup = Button.Group;
 
 export default defineComponent({
+  components: { antdButton },
   name: "HomeView",
-  components: {
-    AButton: Button,
-    // AButtonGroup: ButtonGroup,
-  },
 });
 </script>
