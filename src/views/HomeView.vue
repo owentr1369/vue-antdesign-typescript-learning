@@ -1,17 +1,17 @@
 <template>
   <div class="home">
     <div class="antd">
-      <antd-steps></antd-steps>
+      <antd-auto-complete></antd-auto-complete>
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import AntdSteps from "@/components/antd-steps.vue";
+import AntdAutoComplete from "../components/antd-auto-complete.vue";
 
 export default defineComponent({
-  components: { AntdSteps },
+  components: { AntdAutoComplete },
   name: "HomeView",
 });
 </script>
