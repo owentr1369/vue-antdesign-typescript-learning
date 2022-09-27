@@ -1,18 +1,18 @@
 <template>
   <div class="home">
     <div class="antd">
-      <antd-auto-complete></antd-auto-complete>
+      <antd-date-picker></antd-date-picker>
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import AntdAutoComplete from "../components/antd-auto-complete.vue";
+import AntdDatePicker from "../components/antd-date-picker.vue";
 
 export default defineComponent({
-  components: { AntdAutoComplete },
   name: "HomeView",
+  components: { AntdDatePicker },
 });
 </script>
 
