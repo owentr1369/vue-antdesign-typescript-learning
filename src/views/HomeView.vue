@@ -1,18 +1,18 @@
 <template>
   <div class="home">
     <div class="antd">
-      <antd-date-picker></antd-date-picker>
+      <antd-form></antd-form>
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import AntdDatePicker from "../components/antd-date-picker.vue";
+import AntdForm from "../components/antd-form.vue";
 
 export default defineComponent({
   name: "HomeView",
-  components: { AntdDatePicker },
+  components: { AntdForm },
 });
 </script>
 
