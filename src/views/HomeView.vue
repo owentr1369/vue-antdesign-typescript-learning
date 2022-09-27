@@ -1,16 +1,16 @@
 <template>
   <div class="home">
     <h1>This is an home page</h1>
-    <antd-dropdown></antd-dropdown>
+    <antd-pagination></antd-pagination>
   </div>
 </template>
 
 <script lang="ts">
-import AntdDropdown from "@/components/antd-dropdown.vue";
 import { defineComponent } from "vue";
+import AntdPagination from "@/components/antd-pagination.vue";
 
 export default defineComponent({
-  components: { AntdDropdown },
+  components: { AntdPagination },
   name: "HomeView",
 });
 </script>
