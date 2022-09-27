@@ -1,18 +1,18 @@
 <template>
   <div class="home">
     <div class="antd">
-      <antd-mention></antd-mention>
+      <antd-select></antd-select>
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import AntdMention from "../components/antd-mention.vue";
+import AntdSelect from "../components/antd-select.vue";
 
 export default defineComponent({
   name: "HomeView",
-  components: { AntdMention },
+  components: { AntdSelect },
 });
 </script>
 
