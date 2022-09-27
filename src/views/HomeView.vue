@@ -1,16 +1,32 @@
 <template>
   <div class="home">
-    <h1>This is an home page</h1>
-    <antd-pagination></antd-pagination>
+    <div class="antd">
+      <antd-steps></antd-steps>
+    </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import AntdPagination from "@/components/antd-pagination.vue";
+import AntdSteps from "@/components/antd-steps.vue";
 
 export default defineComponent({
-  components: { AntdPagination },
+  components: { AntdSteps },
   name: "HomeView",
 });
 </script>
+
+<style lang="scss">
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  overflow: hidden;
+  flex-direction: column;
+  .antd {
+    width: 60%;
+    height: 100%;
+  }
+}
+</style>
