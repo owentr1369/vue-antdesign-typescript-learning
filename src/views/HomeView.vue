@@ -1,18 +1,18 @@
 <template>
   <div class="home">
     <div class="antd">
-      <antd-time-picker></antd-time-picker>
+      <antd-upload></antd-upload>
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import AntdTimePicker from "../components/antd-time-picker.vue";
+import AntdUpload from "@/components/antd-upload.vue";
 
 export default defineComponent({
   name: "HomeView",
-  components: { AntdTimePicker },
+  components: { AntdUpload },
 });
 </script>
 
