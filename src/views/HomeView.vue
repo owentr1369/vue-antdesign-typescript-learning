@@ -1,18 +1,18 @@
 <template>
   <div class="home">
     <div class="antd">
-      <antd-calendar></antd-calendar>
+      <antd-carousel></antd-carousel>
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import AntdCalendar from "../components/antd-calendar.vue";
+import AntdCarousel from "../components/antd-carousel.vue";
 
 export default defineComponent({
   name: "HomeView",
-  components: { AntdCalendar },
+  components: { AntdCarousel },
 });
 </script>
 
