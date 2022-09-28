@@ -1,18 +1,18 @@
 <template>
   <div class="home">
     <div class="antd">
-      <antd-badge></antd-badge>
+      <antd-calendar></antd-calendar>
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import AntdBadge from "../components/antd-badge.vue";
+import AntdCalendar from "../components/antd-calendar.vue";
 
 export default defineComponent({
-    name: "HomeView",
-    components: { AntdBadge }
+  name: "HomeView",
+  components: { AntdCalendar },
 });
 </script>
 
