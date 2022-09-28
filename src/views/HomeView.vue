@@ -1,18 +1,18 @@
 <template>
   <div class="home">
     <div class="antd">
-      <antd-upload></antd-upload>
+      <antd-badge></antd-badge>
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import AntdUpload from "@/components/antd-upload.vue";
+import AntdBadge from "../components/antd-badge.vue";
 
 export default defineComponent({
-  name: "HomeView",
-  components: { AntdUpload },
+    name: "HomeView",
+    components: { AntdBadge }
 });
 </script>
 
