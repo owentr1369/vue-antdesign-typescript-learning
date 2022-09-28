@@ -1,18 +1,18 @@
 <template>
   <div class="home">
     <div class="antd">
-      <antd-collapse></antd-collapse>
+      <antd-comment></antd-comment>
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import AntdCollapse from "../components/antd-collapse.vue";
+import AntdComment from "@/components/antd-comment.vue";
 
 export default defineComponent({
   name: "HomeView",
-  components: { AntdCollapse },
+  components: { AntdComment },
 });
 </script>
 
