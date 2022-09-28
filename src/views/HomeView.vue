@@ -1,18 +1,18 @@
 <template>
   <div class="home">
     <div class="antd">
-      <antd-carousel></antd-carousel>
+      <antd-collapse></antd-collapse>
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import AntdCarousel from "../components/antd-carousel.vue";
+import AntdCollapse from "../components/antd-collapse.vue";
 
 export default defineComponent({
   name: "HomeView",
-  components: { AntdCarousel },
+  components: { AntdCollapse },
 });
 </script>
 
