@@ -1,18 +1,18 @@
 <template>
   <div class="home">
     <div class="antd">
-      <antd-comment></antd-comment>
+      <antd-description></antd-description>
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import AntdComment from "@/components/antd-comment.vue";
+import AntdDescription from "../components/antd-description.vue";
 
 export default defineComponent({
   name: "HomeView",
-  components: { AntdComment },
+  components: { AntdDescription },
 });
 </script>
 
