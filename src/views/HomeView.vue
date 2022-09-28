@@ -1,18 +1,18 @@
 <template>
   <div class="home">
     <div class="antd">
-      <antd-tag></antd-tag>
+      <antd-timeline></antd-timeline>
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import AntdTag from "../components/antd-tag.vue";
+import AntdTimeline from "../components/antd-timeline.vue";
 
 export default defineComponent({
   name: "HomeView",
-  components: { AntdTag },
+  components: { AntdTimeline },
 });
 </script>
 
